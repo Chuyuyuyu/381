@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/chuyu/%E4%B8%8B%E8%BD%BD/google-chrome-stable_current_amd64.deb" added="2024-11-22T15:07:28.370950Z" modified="2024-11-22T15:07:28.370953Z" visited="2024-11-22T15:07:28.370950Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-11-22T15:07:28.370952Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/chuyu/%E4%B8%8B%E8%BD%BD/postman-linux-x64.tar.gz" added="2024-11-22T18:21:48.531375Z" modified="2024-11-22T18:21:48.531380Z" visited="2024-11-22T18:21:48.531376Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-11-22T18:21:48.531377Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Friend</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('/images/4.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Montserrat', sans-serif;
+            color: #f8f9fa;
+            overflow: hidden;
+        }
+
+        .container {
+            max-width: 600px;
+            background-color: rgba(0, 0, 0, 0.85);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        }
+        
+        h2 {
+            font-family: 'Bangers', cursive;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            color: #dddddd;
+        }
+
+        .form-control {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: none;
+            color: #ffffff;
+        }
+        .form-control::placeholder {
+            color: #dcdcdc;
+        }
+
+        .btn-success {
+            background-color: #28a745;
+            border: none;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border: none;
+            width: 100%;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Edit Friend</h2>
+        <form action="/friends/edit/<%= friend._id %>" method="POST">
+            <div class="form-group">
+                <label for="name">Friend's Name</label>
+                <input type="text" class="form-control" id="name" name="name" value="<%= friend.name %>" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Friend's Email</label>
+                <input type="email" class="form-control" id="email" name="email" value="<%= friend.email %>" required>
+            </div>
+            <div class="form-group">
+                <label for="note">Note (Optional)</label>
+                <input type="text" class="form-control" id="note" name="note" value="<%= friend.note %>">
+            </div>
+            <button type="submit" class="btn btn-success">Save Changes</button>
+        </form>
+        <a href="/friends/list" class="btn btn-secondary mt-4">Back to Friend List</a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
