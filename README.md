@@ -104,9 +104,9 @@ URL: http://localhost:3000/api/friends
 Content-Type: application/json
 Body: Raw and use JSON format.
 {
-  "name": "John Doe",
-  "email": "johndoe@example.com",
-  "note": "Old friend from college"
+  "name": "LQL",
+  "email": "LQL@Valorant.com",
+  "note": "G8L"
 }
  ![Image 2](images/2.png)
 
@@ -122,9 +122,9 @@ URL: http://localhost:3000/api/friends/:friendId (friendId needs to be replaced 
 Headers: Content-Type: application/json
 Body: Raw and use JSON format.
 {
-  "name": "John Updated",
-  "email": "johnupdated@example.com",
-  "note": "Best friend"
+  "name": "LQL",
+  "email": "LQL@Valorant.com",
+  "note": "Update to G8L"
 }
  ![Image 4](images/4.png)
 
