@@ -1,7 +1,7 @@
 # S381_GroupProject_Group46
 Deployment Link:https://s381-groupproject-group46.onrender.com
 If other images in the Readme document cannot be read, you can check the images folder or read the github link directly.
-Github URL：
+Github URL：https://github.com/Chuyuyuyu/S381_GroupProject_Group46
 
 * Group members：  
 Liu Qianli	(13265598)
