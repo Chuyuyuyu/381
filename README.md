@@ -104,11 +104,6 @@ URL: hhttps://s381-groupproject-group46.onrender.com/api/friends
 Content-Type: application/json
 Body: Raw and use JSON format.
 {
-<<<<<<< HEAD
-  "name": "LQL",
-  "email": "LQL@Valorant.com",
-  "note": "G8L"
-=======
   "name": "FishHe",
   "email": "fish@valorant.com",
   "note": "test to add friend"
@@ -123,15 +118,6 @@ Headers: Cookie.
 
 ### Put:
 #### Update friend information
-<<<<<<< HEAD
-URL: http://localhost:3000/api/friends/:friendId (friendId needs to be replaced with the 24-digit ObjectID of the friend you want to update.)
-Headers: Content-Type: application/json
-Body: Raw and use JSON format.
-{
-  "name": "LQL",
-  "email": "LQL@Valorant.com",
-  "note": "Update to G8L"
-=======
 URL: https://s381-groupproject-group46.onrender.com/api/friends/6746400b2ff238b14b9cc0f2 (Needs to be replaced with the 24-digit ObjectID of the friend you want to update.)
 Headers: Content-Type: application/json
 Body: Raw and use JSON format.
@@ -142,9 +128,6 @@ Body: Raw and use JSON format.
 
 ### Delete
 #### Deleting a friend
-<<<<<<< HEAD
-  URL: http://localhost:3000/api/friends/:friendId (friendId needs to be replaced with the 24-digit ObjectID of the friend you want to update.)
-=======
   URL: https://s381-groupproject-group46.onrender.com/api/friends/6746400b2ff238b14b9cc0f2 (Needs to be replaced with the 24-digit ObjectID of the friend you want to update.)
  ![Image 5](images/5.png)
 
