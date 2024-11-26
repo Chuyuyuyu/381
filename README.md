@@ -133,7 +133,7 @@ Body: Raw and use JSON format.
   URL: http://localhost:3000/api/friends/:friendId (friendId needs to be replaced with the 24-digit ObjectID of the friend you want to update.)
  ![Image 5](images/5.png)
 
-https://s381-groupproject-group46.onrender.com/api/friends/67456ee255ddd1253e68b1a5
+
 
               
 
