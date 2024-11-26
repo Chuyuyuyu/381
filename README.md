@@ -112,7 +112,6 @@ Body: Raw and use JSON format.
   "name": "FishHe",
   "email": "fish@valorant.com",
   "note": "test to add friend"
->>>>>>> 2be5b61cdd79c27f7f606b6c44060e21d0339683
 }
  ![Image 2](images/2.png)
 
@@ -138,7 +137,6 @@ Headers: Content-Type: application/json
 Body: Raw and use JSON format.
 {
  "note": "Update to note"
->>>>>>> 2be5b61cdd79c27f7f606b6c44060e21d0339683
 }
  ![Image 4](images/4.png)
 
@@ -148,7 +146,6 @@ Body: Raw and use JSON format.
   URL: http://localhost:3000/api/friends/:friendId (friendId needs to be replaced with the 24-digit ObjectID of the friend you want to update.)
 =======
   URL: https://s381-groupproject-group46.onrender.com/api/friends/6746400b2ff238b14b9cc0f2 (Needs to be replaced with the 24-digit ObjectID of the friend you want to update.)
->>>>>>> 2be5b61cdd79c27f7f606b6c44060e21d0339683
  ![Image 5](images/5.png)
 
 
