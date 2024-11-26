@@ -92,7 +92,7 @@ After the deletion is successful, the page will redirect back to dashboard.ejs o
 In this project, there are four HTTP: post, get, update and delete.
 ### POST
 #### Login
-URL: http://localhost:3000/login
+URL: https://s381-groupproject-group46.onrender.com/login
 Headers: Content-Type: application/json
 Body: x-www-form-urlencoded
 	email: “Registered Email”
@@ -100,37 +100,35 @@ Body: x-www-form-urlencoded
 ![Image 1](images/1.png)	
  
 #### Add friends
-URL: http://localhost:3000/api/friends
+URL: hhttps://s381-groupproject-group46.onrender.com/api/friends
 Content-Type: application/json
 Body: Raw and use JSON format.
 {
-  "name": "LQL",
-  "email": "LQL@Valorant.com",
-  "note": "G8L"
+  "name": "FishHe",
+  "email": "fish@valorant.com",
+  "note": "test to add friend"
 }
  ![Image 2](images/2.png)
 
 ### Get
 #### Get friends list
-URL: http://localhost:3000/api/friends
+URL:https://s381-groupproject-group46.onrender.com/api/friends
 Headers: Cookie.
  ![Image 3](images/3.png)
 
 ### Put:
 #### Update friend information
-URL: http://localhost:3000/api/friends/:friendId (friendId needs to be replaced with the 24-digit ObjectID of the friend you want to update.)
+URL: https://s381-groupproject-group46.onrender.com/api/friends/6746400b2ff238b14b9cc0f2 (Needs to be replaced with the 24-digit ObjectID of the friend you want to update.)
 Headers: Content-Type: application/json
 Body: Raw and use JSON format.
 {
-  "name": "LQL",
-  "email": "LQL@Valorant.com",
-  "note": "Update to G8L"
+ "note": "Update to note"
 }
  ![Image 4](images/4.png)
 
 ### Delete
 #### Deleting a friend
-  URL: http://localhost:3000/api/friends/:friendId (friendId needs to be replaced with the 24-digit ObjectID of the friend you want to update.)
+  URL: https://s381-groupproject-group46.onrender.com/api/friends/6746400b2ff238b14b9cc0f2 (Needs to be replaced with the 24-digit ObjectID of the friend you want to update.)
  ![Image 5](images/5.png)
 
 
