@@ -104,9 +104,9 @@ URL: http://localhost:3000/api/friends
 Content-Type: application/json
 Body: Raw and use JSON format.
 {
-  "name": "John Doe",
-  "email": "johndoe@example.com",
-  "note": "Old friend from college"
+  "name": "LQL",
+  "email": "LQL@Valorant.com",
+  "note": "G8L"
 }
  ![Image 2](images/2.png)
 
@@ -118,20 +118,21 @@ Headers: Cookie.
 
 ### Put:
 #### Update friend information
-URL: http://localhost:3000/api/friends/:friendId (friendId needs to be replaced with the 24-digit ObjectID of the friend you want to update.
+URL: http://localhost:3000/api/friends/:friendId (friendId needs to be replaced with the 24-digit ObjectID of the friend you want to update.)
 Headers: Content-Type: application/json
 Body: Raw and use JSON format.
 {
-  "name": "John Updated",
-  "email": "johnupdated@example.com",
-  "note": "Best friend"
+  "name": "LQL",
+  "email": "LQL@Valorant.com",
+  "note": "Update to G8L"
 }
  ![Image 4](images/4.png)
 
 ### Delete
 #### Deleting a friend
-  URL: http://localhost:3000/api/friends/:friendId (friendId needs to be replaced with the 24-digit ObjectID of the friend you want to update.
+  URL: http://localhost:3000/api/friends/:friendId (friendId needs to be replaced with the 24-digit ObjectID of the friend you want to update.)
  ![Image 5](images/5.png)
+
 
 
               
